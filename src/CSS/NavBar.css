@@ -1,0 +1,26 @@
+.NavBar {
+  background-color:rgb(28, 26, 32);
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+}
+
+.Logo {
+  height: 70px;
+  margin-left: 50px;
+  position: relative;
+  float: left;
+}
+.Navigation-burger {
+  display: none;
+}
+@media only screen and (max-width: 650px) {
+  .Navigation-bar {
+    display: none;
+  }
+  .Navigation-burger {
+    display:flex;
+    position: absolute;
+    width: 100%;
+  }
+}
