@@ -28,7 +28,6 @@ export default function NavigationBurger() {
     <div className="Burger">
       <div className={burgerIcon}>
         <GiHamburgerMenu
-          className="BurgerIcon"
           onClick={() => {
             showMenu();
           }}
@@ -45,32 +44,62 @@ export default function NavigationBurger() {
         </div>
         <ul className="BurgerList">
           <li className="ListItem">
-            <NavLink to="/" className="ListText">
+            <NavLink
+              to="/"
+              className="ListText"
+              onClick={() => {
+                hideMenu();
+              }}
+            >
               <AiOutlineHome className="Icon" />
               Home
             </NavLink>
           </li>
           <li className="ListItem">
-            <NavLink to="/about" className="ListText">
+            <NavLink
+              to="/about"
+              className="ListText"
+              onClick={() => {
+                hideMenu();
+              }}
+            >
               <BsPerson className="Icon" />
               About
             </NavLink>
           </li>
 
           <li className="ListItem">
-            <NavLink to="/about" className="ListText">
+            <NavLink
+              to="/projects"
+              className="ListText"
+              onClick={() => {
+                hideMenu();
+              }}
+            >
               <FaProjectDiagram className="Icon" />
               Projects
             </NavLink>
           </li>
           <li className="ListItem">
-            <NavLink to="/about" className="ListText">
+            <NavLink
+              to="/resume"
+              className="ListText"
+              onClick={() => {
+                hideMenu();
+              }}
+            >
               <RiNewspaperLine className="Icon" />
               Resume
             </NavLink>
           </li>
           <li className="ListItem">
-            <NavLink to="/about" className="ListText">
+            <NavLink
+              to="/contact"
+              className="ListText"
+              onClick={() => {
+                hideMenu();
+              }}
+            >
               <MdOutlineContactPage className="Icon" />
               Contact
             </NavLink>

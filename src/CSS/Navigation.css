@@ -16,18 +16,7 @@
 }
 
 .Icon {
-  color: white;
+  color: rgb(24, 20, 20);
   font-size: 22px;
   margin-right: 7px;
-}
-
-
-.ListText:hover {transition: color .30s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  
-  color: rgb(156, 58, 148);
-}
-
-
-.ListText:active {
-  border-bottom: 3px solid red;
 }
