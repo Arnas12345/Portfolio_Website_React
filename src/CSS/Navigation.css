@@ -1,5 +1,5 @@
 .List {
-  margin-top: 2%;
+  margin-top: 22.5px;
   /* margin-right: 5%; */
   float: right;
   list-style-type: none;
@@ -12,11 +12,12 @@
   text-decoration: none;
   color: white;
   text-transform:uppercase;
-  font-size: 22px;
+  font-size: 24px;
+  font-family: 'Sora', sans-serif;
 }
 
 .Icon {
   color: rgb(24, 20, 20);
-  font-size: 20%;
+  font-size: 22px;
   margin-right: 7px;
 }

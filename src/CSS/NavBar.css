@@ -9,7 +9,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 690px) {
   .Navigation-bar {
     display: none;
   }
@@ -17,9 +17,6 @@
     display:flex;
     position: absolute;
     width: 100%;
-  }
-  .Logo {
-    height: 50px;
   }
   .NavBar {
     height: 2vh;

@@ -1,12 +1,13 @@
 .Intro {
   color: white;
-  font-size: 48px;
+  font-size: 60px;
   text-transform:uppercase;
   margin: 10px;
+  font-family: 'Sora', sans-serif;
 }
 
 .MainText {
-  margin-top: 150px;
+  margin-top: 150px!important;
 }
 
 .Name {
@@ -20,34 +21,47 @@
 }
 
 .ManAtDesk {
-  max-height: 350px;
-  margin-top: 75px;
+  margin-top: 75px!important;
+  max-height: 375px!important;
+}
+
+.IntroText{ 
+  height: 95vh!important;
+  margin-right: 0px!important;
 }
 
 .AboutMeText {
   width: 75%;
-  margin-left: 12.5%
+  margin-left: 12.5%;
 }
 
 .AboutMeFont{
   color: white;
-  font-weight: 500;
-  font-size: large;
-  line-height: 20px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 24px;
+  font-family: 'Sora', sans-serif;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 940px) {
   .ManAtDesk {
-    max-height: 300px;
+    max-height: 300px!important;
+    margin-top: 150px!important;
   }
 }
 
 @media only screen and (max-width: 767.5px) {
   .ManAtDesk {
-    margin-top: 25px;
+    margin-top: 25px!important;
   }
   .MainText {
-    margin-top: 50px;
+    margin-top: 50px!important;
+  }
+  .IntroText {
+    height: 100%!important;
+  }
+  .AboutMeFont{
+    font-size: 20px;
   }
 }
 
