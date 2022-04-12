@@ -4,7 +4,7 @@
   float: right;
   list-style-type: none;
   display:flex;
-  width: 65%;
+  width: 60%;
   justify-content: space-around;
 }
 
@@ -17,6 +17,6 @@
 
 .Icon {
   color: rgb(24, 20, 20);
-  font-size: 22px;
+  font-size: 20%;
   margin-right: 7px;
 }

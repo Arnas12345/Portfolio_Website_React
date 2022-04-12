@@ -1,26 +1,16 @@
-.about2 {
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-  font-size: 20;
-}
-
-@media only screen and (max-width: 650px) {
-  .About {
-    height: 93vh;
-    margin-top: 7vh;
-  }
+.Intro {
+  color: white;
+  font-size: 48px;
+  text-transform:uppercase;
+  margin: 10px;
 }
 
 .MainText {
-  margin-top: 50px;
-  height: 75vh;
+  margin-top: 150px;
 }
 
-.Intro {
-  color: white;
-  font-size: 22px;
-  text-transform:uppercase;
+.Name {
+  color: rgb(71, 97, 209);
 }
 
 .Jobs {
@@ -28,3 +18,36 @@
   font-size: 22px;
   text-transform:uppercase;
 }
+
+.ManAtDesk {
+  max-height: 350px;
+  margin-top: 75px;
+}
+
+.AboutMeText {
+  width: 75%;
+  margin-left: 12.5%
+}
+
+.AboutMeFont{
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 870px) {
+  .ManAtDesk {
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 767.5px) {
+  .ManAtDesk {
+    margin-top: 25px;
+  }
+  .MainText {
+    margin-top: 50px;
+  }
+}
+

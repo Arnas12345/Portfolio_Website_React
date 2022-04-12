@@ -43,13 +43,13 @@
   /* background-color: rgba(26,24,32,255); */
   background-image: linear-gradient(to bottom right, rgb(26,24,32) ,rgb(70, 66, 80));
   width: 100%;
-  min-height: 90vh;
-  margin-top: 10vh;
+  min-height: 90.75%;
+  margin-top: 65px;
 }
 
 @media only screen and (max-width: 650px) {
   .Page {
-    min-height: 93vh;
-    margin-top: 7vh;
+    min-height: 91%;
+    margin-top: 60px;
   }
 }

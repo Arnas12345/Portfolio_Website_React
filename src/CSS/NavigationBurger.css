@@ -1,6 +1,6 @@
 .NavBar {
   background-color:rgb(28, 26, 32);
-  height: 10vh;
+  height: 65px;
   width: 100%;
   position: absolute;
 }
@@ -14,7 +14,7 @@
 .BurgerIcon {
   color: white;
   margin-right: 6px;
-  margin-top: 9px;
+  margin-top: -2px;
   font-size: 32px;
 }
 
@@ -54,12 +54,12 @@
   text-decoration: none;
   color: white;
   text-transform:uppercase;
-  font-size: 22px;
+  font-size: 99%;
 }
 
 .Icon {
   color: white;
-  font-size: 22px;
+  font-size: 99%;
   margin-right: 7px;
 }
 
@@ -94,10 +94,4 @@
 .Cross {
   width: 100%;
   position: absolute;
-}
-
-@media only screen and (max-width: 650px) {
-  .NavBar {
-    height: 7vh;
-  }
 }
