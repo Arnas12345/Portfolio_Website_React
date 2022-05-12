@@ -1,6 +1,6 @@
 .Intro {
   color: white;
-  font-size: 60px;
+  font-size: 70px;
   text-transform:uppercase;
   margin: 10px;
   font-family: 'Sora', sans-serif;
@@ -62,6 +62,9 @@
   }
   .AboutMeFont{
     font-size: 20px;
+  }
+  .Intro {
+    font-size: 50px;
   }
 }
 
