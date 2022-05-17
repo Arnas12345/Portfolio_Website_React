@@ -1,5 +1,5 @@
 .NavBar {
-  background-color:rgb(28, 26, 32);
+  background-color:rgb(31, 25, 46);
   height: 65px;
   width: 100%;
   position: absolute;
@@ -66,17 +66,16 @@
 
 .ListText:hover {
   
-  animation: 1.5s ease-out fadeIn 1;
+  color: rgb(156, 58, 148);
+  animation: 0.3s forwards fadeIn 0s;
 }
 
 @keyframes fadeIn {
   0% {
-    color: white;
-    border-bottom: 0px solid red;
+    border-bottom: 0px solid rgb(129, 81, 250);
   }
   100% {
-    color: rgb(156, 58, 148);
-    border-bottom: 4px solid beige;
+    border-bottom: 4px solid rgb(129, 81, 250);
   }
 }
 

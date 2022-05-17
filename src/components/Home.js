@@ -27,6 +27,7 @@ export default function Home() {
         <h1 className="Intro" style={{ marginBottom: 25 }}>
           A LITTLE <strong className="Name">ABOUT ME</strong>
         </h1>
+        <div className="AboutMeUnderline"></div>
         <div className="AboutMeText">
           <p className="AboutMeFont">
             I am a recent <strong className="Name">graduate</strong> from the{" "}

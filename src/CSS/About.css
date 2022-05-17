@@ -1,13 +1,68 @@
-.about2 {
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-  font-size: 20;
+.Intro2 {
+  color: white;
+  font-size: 50px;
+  text-transform:uppercase;
+  margin: 10px;
+  font-family: 'Sora', sans-serif;
 }
 
-@media only screen and (max-width: 650px) {
-  .About {
-    height: 93vh;
-    margin-top: 7vh;
+.AboutMeFont2{
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 24px;
+  font-family: 'Sora', sans-serif;
+  margin-top: 35px;
+}
+
+.AboutMeText2 {
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.IntroText2{ 
+  height: 85vh!important;
+  margin-right: 0px!important;
+}
+
+@media only screen and (max-width: 1526px) {
+  .IntroText2 {
+    height: 100%!important;;
+  }
+}
+
+.Skills{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  color: #444;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.SkillLogo{
+  max-height: 90px!important;
+  max-width: 150px;
+  filter:  brightness(0) invert(1);
+}
+
+@media only screen and (max-width: 675px) {
+  .Skills{
+    grid-template-columns: 200px 200px;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  .Skills{
+    grid-template-columns: 200px;
   }
 }
