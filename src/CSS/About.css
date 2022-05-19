@@ -41,12 +41,23 @@
   padding-bottom: 25px;
 }
 
+.Tools{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-gap: 10px;
+  color: #444;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  background-color:rgba(33, 13, 81, 0.233);
+  color: rgb(43, 15, 60);
+  border-radius: 5px; 
   padding: 20px;
   font-size: 150%;
+  border-style: solid;
 }
 
 .SkillLogo{
@@ -55,14 +66,32 @@
   filter:  brightness(0) invert(1);
 }
 
+@media only screen and (max-width: 1055px) {
+  .Tools{
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .Tools{
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+
 @media only screen and (max-width: 675px) {
   .Skills{
+    grid-template-columns: 200px 200px;
+  }
+  .Tools{
     grid-template-columns: 200px 200px;
   }
 }
 
 @media only screen and (max-width: 421px) {
   .Skills{
+    grid-template-columns: 200px;
+  }
+  .Tools{
     grid-template-columns: 200px;
   }
 }
