@@ -76,3 +76,9 @@
   }
 }
 
+@media only screen and (max-width: 387.5px) {
+  .Intro {
+    font-size: 30px;
+  }
+}
+

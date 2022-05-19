@@ -1,0 +1,97 @@
+.Projects{ 
+  height: 100%!important;
+  margin-right: 0px!important;
+}
+
+.Project{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 50px;
+  color: #444;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 1295px) {
+  .Project {
+    grid-template-columns: 400px 400px;
+  }
+}
+
+@media only screen and (max-width: 852px) {
+  .Project {
+    grid-template-columns: 400px;
+  }
+}
+
+.projectBox {
+  position: relative;
+  background-color:rgba(33, 13, 81, 0.233);
+  color: rgb(43, 15, 60);
+  border-radius: 5px; 
+  padding: 20px;
+  font-size: 150%;
+  border-style: solid;
+  height: 500px;
+}
+
+.ProjectImage{
+  height: 200px!important;
+  width: 95%;
+}
+
+
+@media only screen and (max-width: 393px) {
+  .Project{
+    grid-template-columns: 250px;
+  }
+  .ProjectImage{
+    max-width: 70%;
+    height: 100px!important;
+  }
+  .projectBox {
+    height: 550px;
+  }
+  .viewProjectButton{
+    left: 20%!important;
+  }
+}
+
+@media only screen and (max-width: 294px) {
+  .Intro2{
+    font-size: 30px;
+  }
+}
+
+.ProjectHeader{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Sora', sans-serif;
+  margin-top: 15px;
+}
+
+.ProjectInfo{
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Sora', sans-serif;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.viewProjectButton{
+  font-size: 16px;
+  width: 150px;
+  color: antiquewhite;
+  background-color:rgba(91, 55, 175, 0.629);
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+  bottom:   15px;
+  position: absolute;
+  left: 31.5%;
+}
