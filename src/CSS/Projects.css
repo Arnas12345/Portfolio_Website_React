@@ -51,10 +51,14 @@
     height: 100px!important;
   }
   .projectBox {
-    height: 550px;
+    height: 450px;
   }
   .viewProjectButton{
     left: 20%!important;
+  }
+  .ProjectInfo{
+    font-size: 14px!important;
+    line-height: 18px!important;
   }
 }
 

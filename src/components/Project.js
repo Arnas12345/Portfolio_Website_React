@@ -81,7 +81,8 @@ export default function Project() {
         <p className="ProjectInfo">
           This project was to teach a Reinforcment Learning agent how to become
           better at an Atari game Asteroids using the OpenAI Gym enviroment,
-          Python, Sklearn and a Jupyter Notebook.
+          Python, Sklearn and a Jupyter Notebook. The agent increased game
+          performance by around 80%.
         </p>
         <button
           onClick={() => viewProject("Reinforcment_Learning_Atari_Asteroids")}

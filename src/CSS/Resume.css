@@ -1,0 +1,15 @@
+.PDF {
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+.PDFHolder{
+  display:grid;
+  justify-content: center!important;
+}
+
+.Buttons {
+  position: absolute;
+  bottom: 0px;
+  justify-self: center
+}
