@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 import "../CSS/Resume.css";
