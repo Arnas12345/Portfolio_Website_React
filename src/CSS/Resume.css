@@ -1,6 +1,6 @@
 .PDF {
   margin-top: 70px;
-  margin-bottom: 45px;
+  margin-bottom: 75px;
 }
 
 .PDFHolder{
@@ -11,5 +11,52 @@
 .Buttons {
   position: absolute;
   bottom: 0px;
-  justify-self: center
+  justify-self: center;
+}
+
+.DownloadButton {
+  position: absolute;
+  justify-self: flex-end;
+  float: right;
+  top: 30px;
+  right: 25px;
+}
+
+.download{
+  font-size: 16px;
+  width: 200px;
+  color: antiquewhite;
+  background-color:rgba(91, 55, 175, 0.629);
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.pageChangeButton{
+  font-size: 16px;
+  width: 150px;
+  color: antiquewhite;
+  background-color:rgba(91, 55, 175, 0.629);
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .DownloadButton{
+    position: relative;
+    justify-self: normal;
+    top: 30px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .pageChangeButton{
+    width: 80px;
+  }
+  .PDF {
+    margin-bottom: 140px;
+  }
 }
