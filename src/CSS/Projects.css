@@ -1,5 +1,6 @@
 .Projects{ 
   height: 100%!important;
+  margin-left: 0px!important;
   margin-right: 0px!important;
 }
 
@@ -47,7 +48,7 @@
     grid-template-columns: 250px;
   }
   .ProjectImage{
-    max-width: 70%;
+    max-width: 80%;
     height: 100px!important;
   }
   .projectBox {

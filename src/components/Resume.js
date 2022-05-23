@@ -8,7 +8,7 @@ export default function Resume() {
   return (
     <div className="Page">
       <Particle />
-      <div className="row Projects">
+      <div className="row Resume">
         <div style={{ marginTop: 70 }}>
           <h1 className="Intro2">Resume.</h1>
           <div className="AboutMeUnderline"></div>

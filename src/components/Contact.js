@@ -9,7 +9,7 @@ const SERVICE_ID = "service_9rx85ui";
 const TEMPLATE_ID = "template_61hg5ya";
 const USER_ID = "C_VG0e6y5DhZe3OQC";
 
-const Contact = () => {
+export default function Contact() {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
@@ -80,5 +80,4 @@ const Contact = () => {
       </div>
     </div>
   );
-};
-export default Contact;
+}

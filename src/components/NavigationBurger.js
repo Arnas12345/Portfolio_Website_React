@@ -47,6 +47,9 @@ export default function NavigationBurger() {
             <NavLink
               to="/"
               className="ListText"
+              style={({ isActive }) => ({
+                color: !isActive ? "" : "#9c3a94",
+              })}
               onClick={() => {
                 hideMenu();
               }}
@@ -59,6 +62,9 @@ export default function NavigationBurger() {
             <NavLink
               to="/about"
               className="ListText"
+              style={({ isActive }) => ({
+                color: !isActive ? "" : "#9c3a94",
+              })}
               onClick={() => {
                 hideMenu();
               }}
@@ -72,6 +78,9 @@ export default function NavigationBurger() {
             <NavLink
               to="/projects"
               className="ListText"
+              style={({ isActive }) => ({
+                color: !isActive ? "" : "#9c3a94",
+              })}
               onClick={() => {
                 hideMenu();
               }}
@@ -84,6 +93,9 @@ export default function NavigationBurger() {
             <NavLink
               to="/resume"
               className="ListText"
+              style={({ isActive }) => ({
+                color: !isActive ? "" : "#9c3a94",
+              })}
               onClick={() => {
                 hideMenu();
               }}
@@ -96,6 +108,9 @@ export default function NavigationBurger() {
             <NavLink
               to="/contact"
               className="ListText"
+              style={({ isActive }) => ({
+                color: !isActive ? "" : "#9c3a94",
+              })}
               onClick={() => {
                 hideMenu();
               }}

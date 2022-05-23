@@ -14,8 +14,8 @@
 .BurgerIcon {
   color: white;
   margin-right: 6px;
-  margin-top: -2px;
-  font-size: 32px;
+  margin-top: 5px;
+  font-size: 42px;
 }
 
 .BurgerIconHidden {
@@ -26,10 +26,8 @@
   display: none;
 }
 .MenuDisplayed {
-  display: flex;
   height: 50%;
   width: 100%;
-  flex-direction: column;
   z-index: 2;
   background-color:rgb(34, 32, 37);
   animation: 0.4s ease-out fadeIn2 1;
@@ -48,6 +46,8 @@
   list-style-type: none;
   text-align: center;
   padding: 0px;
+  z-index: 2;
+  align-self: center;
 }
 
 .ListText {
@@ -70,6 +70,12 @@
   animation: 0.3s forwards fadeIn 0s;
 }
 
+.ListText active {
+  
+  color: rgb(156, 58, 148);
+  animation: 0.3s forwards fadeIn 0s;
+}
+
 @keyframes fadeIn {
   0% {
     border-bottom: 0px solid rgb(129, 81, 250);
@@ -87,13 +93,14 @@
   color: white;
   margin-right: 7px;
   margin-top: 10px;
-  font-size: 28px;
+  font-size: 34px;
   float: right;
 }
 
 .Cross {
-  width: 100%;
   position: absolute;
+  float: right;
+  margin-left: 90%;
 }
 
 @media only screen and (max-width: 1290px) {

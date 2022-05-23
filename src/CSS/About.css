@@ -22,6 +22,7 @@
 
 .IntroText2{ 
   height: 85vh!important;
+  margin-left: 0px!important;
   margin-right: 0px!important;
 }
 
@@ -89,17 +90,17 @@
 
 @media only screen and (max-width: 421px) {
   .Skills{
-    grid-template-columns: 200px;
+    grid-template-columns: 150px 150px;
   }
   .Tools{
-    grid-template-columns: 200px;
+    grid-template-columns: 150px 150px;
+  }
+  .SkillLogo{
+    max-width: 110px;
   }
 }
 
 @media only screen and (max-width: 271px) {
-  .Tools{
-    grid-template-columns: 200px;
-  }
   .ManAtDesk{
     max-width: 150px;
   }

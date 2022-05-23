@@ -4,8 +4,13 @@ import "../CSS/Resume.css";
 import pdf from "../Images/Arnas-Juravicius-CV.pdf";
 
 export default function SinglePage() {
-  const [PDFSize, setPDFSize] = useState(770);
-
+  const [PDFSize, setPDFSize] = useState(() => {
+    if (window.innerWidth > 796) return 770;
+    else if (window.innerWidth <= 796 && window.innerWidth > 530) return 500;
+    else if (window.innerWidth <= 530 && window.innerWidth > 440) return 400;
+    else if (window.innerWidth <= 440 && window.innerWidth > 320) return 300;
+    else if (window.innerWidth <= 320) return 200;
+  });
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
 
@@ -35,8 +40,6 @@ export default function SinglePage() {
     else if (window.innerWidth <= 440 && window.innerWidth > 320)
       setPDFSize(300);
     else if (window.innerWidth <= 320) setPDFSize(200);
-    console.log(PDFSize);
-    console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
   }
 
   window.addEventListener("resize", handleResize);
@@ -45,7 +48,7 @@ export default function SinglePage() {
       <div className="DownloadButton">
         <button className="download">
           <a
-            href="../Images/Arnas-Juravicius-CV.pdf"
+            href={pdf}
             download={true}
             style={{ textDecoration: "none", color: "white" }}
           >
