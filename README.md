@@ -1,3 +1,6 @@
+# About
+This project was created to display my knowledge of JavaScript and the latest libraries and frameworks using NodeJS and React to do so.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
